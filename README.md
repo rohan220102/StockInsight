@@ -9,6 +9,6 @@ pip install -r requirements.txt
 streamlit run app2.py
 ```
 # Contributors
-Marina Kanare
-Rishi Patel
+Marina Kanare,
+Rishi Patel,
 Rohan Bankala
