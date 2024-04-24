@@ -8,7 +8,7 @@ We have created an interactive dashboard that leverages the historical data of t
 pip install -r requirements.txt
 streamlit run app2.py
 
-## Contributors
+### Contributors
 Marina Kanare
 Rishi Patel
 Rohan Bankala
