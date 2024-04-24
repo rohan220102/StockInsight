@@ -20,7 +20,7 @@ def load_data(file_path):
     df_stock.set_index('Date', inplace=True)
     return df_stock
 
-df_stock = load_data('/workspaces/StockInsight/f_yahoo_stock.csv')
+df_stock = load_data('f_yahoo_stock.csv')
 
 # Streamlit App
 st.title('Stock Price Prediction')
