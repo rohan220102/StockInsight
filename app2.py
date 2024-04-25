@@ -16,7 +16,7 @@ def hash_complex(c):
 @st.cache_data(hash_funcs={complex: hash_complex})
 def load_data(file_path):
     df_stock = pd.read_csv(file_path)
-    df_stock['Date'] = pd.to_datetime(df_stock['Date'])
+    df_stock['Date'] = pd.to_datetime(df_stock['Date'], format='%m/%d/%y')
     df_stock.set_index('Date', inplace=True)
     return df_stock
 
